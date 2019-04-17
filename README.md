@@ -1,7 +1,6 @@
 # 𝝐-Explore
 Since the creation of AlphaZero, a majority of Deep Learning research and engineering for computer chess has been centered around the “Zero” doctrine; that is, focusing on creating a chess engine utilizing zero human knowledge. While AlphaZero (and Leela Zero) are grand milestones for AI, a common critique is the computational costs required to execute these reinforcement learning algorithms. Motivated to create an efficient, yet scalable learning algorithm, I propose an elementary, yet novel solution: 𝝐-Explore. 𝝐-Explore is a handcrafted adaptation of greedy-epsilon exploration*, Go-Explore*, and supervised learning that frames exploration tasks as continual learning and utilizes significantly less computational resources when compared to state-of-the-art reinforcement learning algorithms. All experimentation uses only a single GPU (RTX Titan) and a single CPU (Threadripper 16-core). The results of 𝝐-Explore are not state-of-the-art with our experimental setup, but provide a foundation for creating more efficient handcrafted algorithms in other large search spaces given an available expert policy.
 
-# Algorithm
 The algorithm leverages the existence of an expert-policy (and expert-evaluation in the case of chess) to generate labeled data for the supervised learning step of the algorithm. The existence of an expert in the specified exploration domain is required for the execution of 𝝐-Explore. While AlphaZero uses Monte-Carlo Tree Search as the expert-policy (and evaluation)*, 𝝐-Explore uses Stockfish.
 
 ## Initialization
@@ -31,4 +30,14 @@ Just like SWA, the averaging step takes a stochastic average of the TN’s weigh
 ## Testing Phase
 This final phase tests the progress of the TN by forcing the TN to play a 100-game set (with dirichlet noise in the first 8-ply to create diverse opening positions) with its previous version. These sets are saved and analyzed by myself (with the help of Stockfish) to understand how the TN progressively learns and forgets strategies after its exposure to new data. Moreover, the winrate of the new TN is used to calculate and monitor elo after each iteration. The AN is not tested during this phase for the sake of time (this phase takes upwards of an hour to complete), but is tested after the algorithm is complete. After testing, our new TN will be used in the exploration phase and the rest of ε-Explore is repeated for our specified amount of iterations.
 
-# Results
+# How to Execute 𝝐-Explore
+WARNING: This code IS NOT optimized by any means. It takes LOTS of RAM (32+ Gbs) and the python multiprocessing is not stable (my computer crashes very often). If you want to properly replicate my experiment, I recommend coding you own version of 𝝐-Explore. Feel free to cite any of this code!
+
+There are only two modifications you must change to this repository to replicate my experiment!
+1 - create a bin/ folder in your repository
+2 - add more iteration folders into the games/ folder (Make sure you add 1 more than the iterations you plan on running for safe measure)
+
+Again, I recommend taking a look at the num-processes & cycles in main.py and modifying the code accordingly.
+
+# About Me
+My name is Philip Felizarta and I am an undergraduate student at the University of California, Merced. I am the sole creator/contributor of this project. If you have any questions for me contact me at: pfelizarta@ucmerced.edu
