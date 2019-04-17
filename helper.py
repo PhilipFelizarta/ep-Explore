@@ -1,4 +1,3 @@
-
 PIECE_TO_INDEX = {'P' : 0, 'R' : 1, 'N' : 2, 'B' : 3, 'Q' : 4, 'K' : 5}
 def conversion(board, white, k_castle, q_castle, check, kb_castle, qb_castle): #Convert py-chess board into 8x8x12 volume for the neural network
 	import numpy as np

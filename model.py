@@ -306,18 +306,3 @@ class Agent(object): #Will contain all the functions needed to train our resnet
 			elo_gain = 1000
 
 		return elo_gain
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

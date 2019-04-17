@@ -161,6 +161,3 @@ if __name__ == "__main__":
 
 		helper.save_model(agent.model, model_file, model_weights)
 		helper.save_model(agent.running_model, model_file, modelAV_weights)
-		
-
-
