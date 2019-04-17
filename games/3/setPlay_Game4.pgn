@@ -1,0 +1,21 @@
+[Event "Game 5"]
+[Site "RTX Titan"]
+[Date "????.??.??"]
+[Round "Training"]
+[White "model one"]
+[Black "model two"]
+[Result "1/2-1/2"]
+
+1. e4 Nc6 2. Nf3 Nd4 3. Nxd4 e5 4. Nf3 Nf6 5. Nxe5 d6 6. Nf3 Nxe4 7. d4 d5 8.
+Bd3 Be7 9. O-O O-O 10. c4 Nf6 11. Nc3 dxc4 12. Bxc4 c6 13. Re1 Bf5 14. Bf4 Bd6
+15. Bxd6 Qxd6 16. Ne5 Rae8 17. Qd3 Bxd3 18. Bxd3 Qxd4 19. Rad1 Rxe5 20. Rxe5
+Qxe5 21. Bc4 Re8 22. g3 b5 23. Bb3 a5 24. Kg2 a4 25. Bc2 Ng4 26. Rd2 Nf6 27.
+Bd1 Ne4 28. Nxe4 Qxe4+ 29. Kg1 Qe1+ 30. Kg2 Qxd2 31. Bf3 Re1 32. b3 axb3 33.
+axb3 Qc2 34. b4 Qe4 35. Bxe4 Rxe4 36. Kf3 Rxb4 37. Ke3 c5 38. Kd2 Rb2+ 39. Ke3
+b4 40. h4 b3 41. Kd3 Rxf2 42. g4 b2 43. g5 Rh2 44. h5 Rxh5 45. Kc2 Rxg5 46.
+Kxb2 h5 47. Kc3 h4 48. Kb2 h3 49. Kc3 h2 50. Kb2 Rg3 51. Kc2 c4 52. Kb1 Rg2 53.
+Ka1 c3 54. Kb1 Rb2+ 55. Ka1 c2 56. Kxb2 f5 57. Kxc2 f4 58. Kd3 f3 59. Ke3 Kf7
+60. Kxf3 Kf6 61. Kg2 g5 62. Kxh2 g4 63. Kg3 Kf5 64. Kf2 Kf4 65. Kg2 g3 66. Kf1
+Kf3 67. Kg1 g2 68. Kh2 Kf2 69. Kh3 Kf3 70. Kh2 Kf2 71. Kh3 Kf3 72. Kh2 Kf2 73.
+Kh3 Kf3 74. Kh2 Kf2 75. Kh3 Kf3 76. Kh2 1/2-1/2
+

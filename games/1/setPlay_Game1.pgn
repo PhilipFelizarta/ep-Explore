@@ -1,0 +1,11 @@
+[Event "Game 2"]
+[Site "RTX Titan"]
+[Date "????.??.??"]
+[Round "Training"]
+[White "model two"]
+[Black "model one"]
+[Result "1-0"]
+
+1. a4 a5 2. e3 Nh6 3. b4 axb4 4. Bb2 Ng4 5. Bd4 h5 6. Bd3 Nxf2 7. Kxf2 Rxa4 8.
+Rxa4 f5 9. Bxf5 b3 10. cxb3 c6 11. Bg6# 1-0
+

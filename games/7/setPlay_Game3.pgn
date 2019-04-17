@@ -1,0 +1,19 @@
+[Event "Game 4"]
+[Site "RTX Titan"]
+[Date "????.??.??"]
+[Round "Training"]
+[White "model two"]
+[Black "model one"]
+[Result "1-0"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8.
+c4 Nb6 9. Nc3 Qe6 10. Bd2 Be7 11. Qe4 d5 12. exd6 Qxe4+ 13. Nxe4 cxd6 14. Rc1
+O-O 15. Be2 d5 16. cxd5 Nxd5 17. O-O Bf5 18. Ng3 Be6 19. Rxc6 Rad8 20. Rfc1 Nb4
+21. Bxb4 Bxb4 22. a3 Bd2 23. Rd1 Bg5 24. Rxd8 Rxd8 25. Ne4 Bf4 26. g3 Be5 27.
+Rc2 Bb3 28. Rd2 Rxd2 29. Nxd2 Bd5 30. Nc4 Bd4 31. b4 Kf8 32. Kf1 Ke7 33. Ke1
+Ke6 34. Bf1 Bxc4 35. Bxc4+ Ke7 36. Ke2 Bb2 37. a4 Kd6 38. Bxf7 Bc3 39. b5 Kc5
+40. Kd3 Bf6 41. f4 Bd8 42. Ke4 Bc7 43. Bg8 h6 44. Be6 Kb4 45. Bd7 Kc5 46. Kf5
+Kb4 47. Kg6 Kc5 48. Kxg7 Bd8 49. Kxh6 Kd6 50. Bc6 Kc5 51. Kg6 Kd6 52. f5 Ke5
+53. g4 Be7 54. a5 Bb4 55. a6 Bd2 56. f6 Kd6 57. f7 Ke7 58. Kg7 Be3 59. f8=Q+
+Ke6 60. Qf6# 1-0
+

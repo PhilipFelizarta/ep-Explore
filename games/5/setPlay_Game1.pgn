@@ -1,0 +1,16 @@
+[Event "Game 2"]
+[Site "RTX Titan"]
+[Date "????.??.??"]
+[Round "Training"]
+[White "model two"]
+[Black "model one"]
+[Result "1/2-1/2"]
+
+1. e4 f6 2. d4 d5 3. exd5 g6 4. Nc3 c6 5. dxc6 Nxc6 6. Nf3 e5 7. Bb5 exd4 8.
+O-O dxc3 9. Qxd8+ Kxd8 10. bxc3 Be6 11. Re1 Bd5 12. Bxc6 bxc6 13. Nd4 Kd7 14.
+Be3 Bc5 15. Nb3 Bxe3 16. Rxe3 Ne7 17. Nc5+ Kd6 18. Nd3 Rhe8 19. Ree1 Rab8 20.
+f3 Bc4 21. Rad1 Nd5 22. Rxe8 Rxe8 23. Kf2 Nxc3 24. Rd2 Bxa2 25. Nb4+ Kc5 26.
+Nd3+ Kb5 27. Nc1 a5 28. Nxa2 Nxa2 29. Rd7 a4 30. Rxh7 a3 31. Ra7 Kb4 32. Rb7+
+Kc3 33. Ra7 Kb2 34. Rb7+ Kxc2 35. Ra7 Kb2 36. Rb7+ Kc3 37. Ra7 Kb2 38. Rb7+ Kc3
+39. Ra7 Kb2 40. Rb7+ Kc3 41. Ra7 Kb2 42. Rb7+ Kc3 43. Ra7 Kb2 1/2-1/2
+
